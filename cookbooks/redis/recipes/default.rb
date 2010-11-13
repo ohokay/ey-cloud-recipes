@@ -59,4 +59,9 @@ end
 execute "monit reload" do
   action :run
 end
+
+ey_cloud_report "redis" do
+  message "redis installed..."
+end
+
 end
