@@ -8,7 +8,7 @@ end
 #require_recipe 'postgres'
 
 # uncomment if you want to run couchdb recipe
-# require_recipe "couchdb"
+require_recipe "couchdb"
 
 # uncomment to turn use the MBARI ruby patches for decreased memory usage and better thread/continuationi performance
 # require_recipe "mbari-ruby"
